@@ -1,0 +1,84 @@
+.WeatherApp {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.inputBox {
+    background-color: #FFFEFF;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchBar {
+    background-color: #E0E5F1;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.searchBox {
+    border: none;
+    border-radius: 5px;
+    background-color: #E0E5F1;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.searchBox:focus {
+    border: none;
+    outline-width: 0;
+}
+
+.submitBtn {
+    border: none;
+    background-color: #FFFEFF;
+    height: auto;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.submitBtn:hover {
+    opacity: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icons8-search {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDIxIDMgQyAxMS42MjEwOTQgMyA0IDEwLjYyMTA5NCA0IDIwIEMgNCAyOS4zNzg5MDYgMTEuNjIxMDk0IDM3IDIxIDM3IEMgMjQuNzEwOTM4IDM3IDI4LjE0MDYyNSAzNS44MDQ2ODggMzAuOTM3NSAzMy43ODEyNSBMIDQ0LjA5Mzc1IDQ2LjkwNjI1IEwgNDYuOTA2MjUgNDQuMDkzNzUgTCAzMy45MDYyNSAzMS4wNjI1IEMgMzYuNDYwOTM4IDI4LjA4NTkzOCAzOCAyNC4yMjI2NTYgMzggMjAgQyAzOCAxMC42MjEwOTQgMzAuMzc4OTA2IDMgMjEgMyBaIE0gMjEgNSBDIDI5LjI5Njg3NSA1IDM2IDExLjcwMzEyNSAzNiAyMCBDIDM2IDI4LjI5Njg3NSAyOS4yOTY4NzUgMzUgMjEgMzUgQyAxMi43MDMxMjUgMzUgNiAyOC4yOTY4NzUgNiAyMCBDIDYgMTEuNzAzMTI1IDEyLjcwMzEyNSA1IDIxIDUgWiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+    background-size: 100%;
+    opacity: 50%;
+    padding: 3px;
+}
+
+.fiveDayWeather {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.weatherCard {
+    width: 120px;
+    height: 260px;
+    background-color: #D9CDFF;
+}
+
+.threeHourTemp {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: #CDCDFF;
+}
